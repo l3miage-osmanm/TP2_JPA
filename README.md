@@ -12,13 +12,13 @@ Dans cet exercice, vous allez apprendre à :
 ## Dans le paradigme `validate`
 
 1. Modéliser ses tables existantes en base, en JPA :
- * ![dev_miage](doc/exo1/img.png)
+ * ![dev_miage](/TP2_JPA/doc/exo1/img.png)
 
 ## Dans le mode `create`
 
 1. Faire passer l'attribut en mode `create` dans le fichier [application.yml](server/src/main/resources/application.yml)
 2. Modéliser ces classes en JPA : 
-    * ![association fédération](doc/exo1/img_1.png)
+    * ![association fédération](/TP2_JPA/doc/exo1/img_1.png)
 * ⚠️ une seule table d'association doit apparaitre.
 --- 
 
