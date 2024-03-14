@@ -7,9 +7,9 @@ import java.util.Set;
 @Table(name="developer_miage")
 @Entity
 public class DeveloperMiageEntity {
-    @Id @Column() private String lastname;
-    @Column() private String firstname;
-    @Column() private String email;
+    @Id @Column(name="lastname") private String lastname;
+    @Column(name="firstname") private String firstname;
+    @Column(name="email") private String email;
     @ManyToMany()
     @JoinTable(
             name="developer_miage_project",

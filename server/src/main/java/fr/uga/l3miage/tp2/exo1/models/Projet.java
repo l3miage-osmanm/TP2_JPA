@@ -7,9 +7,9 @@ import java.math.BigInteger;
 @Table(name="projet")
 @Entity
 public class Projet {
-    @Id @Column() private BigInteger id;
-    @Column() private String name;
-    @Column() private String description;
+    @Id @Column(name="id") private BigInteger id;
+    @Column(name="name") private String name;
+    @Column(name="description") private String description;
 
 
     @ManyToMany(mappedBy="projets")
